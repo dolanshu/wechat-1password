@@ -21,7 +21,5 @@
     "addtips": "/components/home-add-tips/index"
   },
   "sitemapLocation": "sitemap.json",
-  "navigateToMiniProgramAppIdList": [
-  ],
   "style": "v2"
 }

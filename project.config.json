@@ -31,14 +31,23 @@
     "packNpmRelationList": [],
     "minifyWXSS": true,
     "bundle": false,
-    "useApiHostProcess": true
+    "useApiHostProcess": true,
+    "compileWorklet": false,
+    "uglifyFileName": false,
+    "minifyWXML": true,
+    "localPlugins": false,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "condition": false,
+    "swc": false,
+    "disableSWC": true
   },
-  "appid": "wx865705a73232e931",
+  "appid": "wxa49a2e118ef1585f",
   "projectname": "myPass",
   "libVersion": "2.8.1",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
-  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
   "condition": {
     "search": {
       "list": []
@@ -101,5 +110,11 @@
         }
       ]
     }
-  }
+  },
+  "compileType": "miniprogram",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {}
 }

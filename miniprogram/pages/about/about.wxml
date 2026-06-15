@@ -17,8 +17,7 @@
   </view>
   <view class="card-detail">
     <text class="title">关于项目</text>
-    <text class="desc">1. 作者微信: arley_GuoLei</text>
-    <text class="desc">2. 此项目开源于Github，欢迎贡献代码和赞赏Star!</text>
-    <text class="desc">3. 转载使用小程序代码二次开发，请进行标注，谢谢!</text>
+    <text class="desc">1. 此项目开源于Github，欢迎贡献代码和赞赏Star!</text>
+    <text class="desc">2. 转载自arley_GuoLei!</text>
   </view>
 </view>

@@ -14,27 +14,6 @@ Page({
   onAbout() {
     router.push('about')
   },
-  onShareAppMessage() {
-    return {
-      title: '我在这里记密码，安全简洁，支持指纹验证 ~',
-      path: '/pages/home/home',
-      imageUrl: './../../images/share-bg.png'
-    }
-  },
-  onGithub() {
-    const url = 'https://github.com/arleyGuoLei/wechat-1password'
-    wx.setClipboardData({
-      data: url,
-      success() {
-        $.tip('已复制github链接')
-      }
-    })
-  },
-  onZan() {
-    wx.previewImage({
-      urls: ['https://7077-pwd-prod-1301366756.tcb.qcloud.la/admire.jpg']
-    })
-  },
   clearAccount() {
     wx.showModal({
       title: '提示',
